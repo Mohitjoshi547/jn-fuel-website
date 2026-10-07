@@ -582,3 +582,19 @@
     font-size: 34px;
   }
 }
+/* ================= APPLY PAGE LOGO ================= */
+
+.apply-logo {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  height: 70px;
+}
+
+.apply-logo img {
+  width: 180px;
+  height: auto;
+  max-height: 65px;
+  object-fit: contain;
+  display: block;
+}

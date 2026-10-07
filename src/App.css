@@ -1614,3 +1614,123 @@ h4 {
 .footer-contact a:hover {
   color: var(--orange);
 }
+/* ================= BLUE ABOUT PAGE ================= */
+
+.about {
+  background: var(--blue);
+  color: #fff;
+}
+
+.about .section-kicker {
+  color: var(--orange-light);
+}
+
+.about .about-content h2 {
+  color: #fff;
+}
+
+.about .about-content h2 span {
+  color: var(--orange);
+}
+
+.about .about-description p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.about .simple-link {
+  color: #fff;
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+
+.about .simple-link span {
+  color: var(--orange);
+}
+
+.about .image-tag {
+  background: var(--orange);
+  color: #fff;
+}
+/* ================= BLUE WEBSITE THEME ================= */
+
+body,
+#root {
+  background: #071b45;
+  color: #ffffff;
+}
+
+/* All pages and sections */
+.app,
+main,
+section {
+  background: #071b45;
+  color: #ffffff;
+}
+
+/* All headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff;
+}
+
+/* Normal text */
+p {
+  color: #ffffff;
+}
+
+/* Highlighted text / orange text */
+h1 span,
+h2 span,
+h3 span {
+  color: #ff8a00;
+}
+
+/* Section labels */
+.section-kicker,
+.trust-label {
+  color: #ffad32;
+}
+
+/* Links */
+a {
+  color: #ffffff;
+}
+
+/* Buttons */
+.primary-btn,
+.contact-button {
+  background: #ff8a00;
+  color: #ffffff;
+}
+
+.primary-btn:hover,
+.contact-button:hover {
+  background: #ffad32;
+}
+
+/* Cards */
+.product-card,
+.service-card,
+.location-card,
+.contact-card {
+  background: #0d2e6d;
+  color: #ffffff;
+}
+
+/* Card text */
+.product-card h3,
+.service-card h3,
+.location-card h3,
+.contact-card h3 {
+  color: #ffffff;
+}
+
+.product-card p,
+.service-card p,
+.location-card p,
+.contact-card p {
+  color: rgba(255, 255, 255, 0.85);
+}

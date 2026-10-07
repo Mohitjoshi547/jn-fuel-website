@@ -10,6 +10,9 @@ import Products from "./pages/Products";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 
+// Why Choose Page
+import WhyChoose from "./pages/WhyChoose";
+
 import Apply from "./Apply";
 import ApplicationSuccess from "./ApplicationSucess";
 
@@ -17,6 +20,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+
         {/* Main Pages */}
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -24,6 +28,9 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
+
+        {/* Why Choose Page */}
+        <Route path="/why-choose" element={<WhyChoose />} />
 
         {/* Apply Pages */}
         <Route path="/apply" element={<Apply />} />
@@ -39,6 +46,7 @@ function App() {
             </div>
           }
         />
+
       </Routes>
     </BrowserRouter>
   );

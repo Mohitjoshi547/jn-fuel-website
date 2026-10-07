@@ -11,7 +11,6 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className="nav-container">
-
         {/* LOGO */}
         <Link to="/" className="brand" onClick={closeMenu}>
           <div className="jn-navbar-logo">
@@ -36,58 +35,36 @@ function Navbar() {
 
         {/* NAVIGATION */}
         <nav className={`nav-menu ${menuOpen ? "active" : ""}`}>
-
-          <NavLink
-            to="/"
-            end
-            onClick={closeMenu}
-          >
+          <NavLink to="/" end onClick={closeMenu}>
             Home
           </NavLink>
 
-          <NavLink
-            to="/about"
-            onClick={closeMenu}
-          >
+          <NavLink to="/about" onClick={closeMenu}>
             About
           </NavLink>
 
-          <NavLink
-            to="/vision"
-            onClick={closeMenu}
-          >
+          <NavLink to="/vision" onClick={closeMenu}>
             Vision
           </NavLink>
 
-          <NavLink
-            to="/products"
-            onClick={closeMenu}
-          >
+          <NavLink to="/products" onClick={closeMenu}>
             Products
           </NavLink>
 
-          <NavLink
-            to="/services"
-            onClick={closeMenu}
-          >
+          <NavLink to="/services" onClick={closeMenu}>
             Services
           </NavLink>
+          <NavLink to="/why-choose" onClick={closeMenu}>
+            Why Us
+          </NavLink>
 
-          <NavLink
-            to="/contact"
-            onClick={closeMenu}
-          >
+          <NavLink to="/contact" onClick={closeMenu}>
             Contact
           </NavLink>
 
-          <Link
-            to="/apply"
-            className="nav-button"
-            onClick={closeMenu}
-          >
+          <Link to="/apply" className="nav-button" onClick={closeMenu}>
             Apply Now
           </Link>
-
         </nav>
       </div>
     </header>
