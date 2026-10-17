@@ -598,3 +598,45 @@
   object-fit: contain;
   display: block;
 }
+/* ================= APPLY HEADER: BLUE + WHITE ================= */
+
+.apply-header {
+  background: #071b45 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.apply-header .back-home {
+  color: #ffffff !important;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.apply-header .back-home:hover {
+  color: #ff8a00 !important;
+}
+
+/* Logo image */
+.apply-header .apply-logo img {
+  width: 180px;
+  max-height: 65px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* Mobile responsive */
+@media (max-width: 550px) {
+  .apply-header {
+    height: 70px;
+    padding: 0 18px;
+  }
+
+  .apply-header .apply-logo img {
+    width: 125px;
+    max-height: 50px;
+  }
+
+  .apply-header .back-home {
+    font-size: 12px;
+  }
+}
